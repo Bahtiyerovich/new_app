@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:news_app/routes/this_routes.dart';
-import 'package:get_storage/get_storage.dart';
+// import 'package:get_storage/get_storage.dart';
 
 void main() async {
-  await GetStorage.init();
+  // await GetStorage.init();
   runApp(const MyApp());
 }
 
